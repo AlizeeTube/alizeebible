@@ -22,23 +22,23 @@ a {
   color: #f56358;
 }
 
-.body-text {
-   font-size:17px;
-}
 
 h3 {
    color: #f56358;
+   text-shadow: 2px 2px #000000;
 }
 
 toc {
   position: fixed;
+  padding-left: 20px;
   width: 15%;
+  background-color: #161417;
 }
 
 div p {
-   font-size: 18px;
+   font-size: 17px;
    width: 60%;
-   margin-left: 300px;
+   text-shadow: 2px 2px #000000;
 }
 
 .img-container {
