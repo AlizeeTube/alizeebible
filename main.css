@@ -4,11 +4,11 @@
 
 body { 
     color: #fff;
-    background-image: url(images/background.png);
+    background-image: url(images/cafe.png), url(images/parchment.png);
     background-position:right bottom;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat, repeat;
     background-attachment: fixed;
-    background-color: #211d23;
+    background-color: #211813;
 }
 
 
@@ -19,12 +19,12 @@ video-player {
 }
 
 a {
-  color: #f56358;
+  color: #fcd86d;
 }
 
 
 h3 {
-   color: #f56358;
+   color: #fcd86d;
    text-shadow: 2px 2px #000000;
 }
 
@@ -32,13 +32,13 @@ toc {
   position: fixed;
   padding-left: 20px;
   width: 15%;
-  background-color: #161417;
+  background-color: #140f0c;
 }
 
 div p {
    font-size: 17px;
    width: 60%;
-   text-shadow: 2px 2px #000000;
+   text-shadow: 2px 1px 2px #000000;
 }
 
 .img-container {
@@ -49,4 +49,10 @@ hr {
   width: 60%;
   margin-top: 100px;
   margin-bottom: 50px;
+}
+
+#audio-container {
+   position: fixed;
+   top: 0;
+   right: 0;
 }
