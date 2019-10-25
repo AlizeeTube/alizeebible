@@ -1,0 +1,52 @@
+.tab { 
+   margin-left: 30px; 
+}
+
+body { 
+    color: #fff;
+    background-image: url(images/background.png);
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #211d23;
+}
+
+
+video-player {
+   position:fixed;
+   right: 0;
+   top: 0;
+}
+
+a {
+  color: #f56358;
+}
+
+.body-text {
+   font-size:17px;
+}
+
+h3 {
+   color: #f56358;
+}
+
+toc {
+  position: fixed;
+  width: 15%;
+}
+
+div p {
+   font-size: 18px;
+   width: 60%;
+   margin-left: 300px;
+}
+
+.img-container {
+   text-align:center;
+}
+
+hr {
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
