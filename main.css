@@ -46,8 +46,8 @@ toc {
 
 div p {
    font-size: 17px;
-   width: 60%;
-   text-shadow: 2px 1px 2px #000000;
+   width: 45%;
+   text-shadow: 2px 1px 1px #000000;
 }
 
 .img-container {
@@ -55,7 +55,7 @@ div p {
 }
 
 hr {
-  width: 60%;
+  width: 40%;
   margin-top: 100px;
   margin-bottom: 50px;
 }
