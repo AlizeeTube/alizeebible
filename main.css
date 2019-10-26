@@ -39,7 +39,9 @@ toc {
   position: fixed;
   padding-left: 20px;
   width: 15%;
-  background-color: rgba(20,15,12,.5);
+  background-color: rgba(28, 18, 16,.6);
+  border-style: double;
+  border-color: #828282;
 }
 
 div p {
