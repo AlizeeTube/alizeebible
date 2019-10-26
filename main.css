@@ -4,11 +4,11 @@
 
 body { 
     color: #fff;
-    background-image: url(images/cafe.png), url(images/parchment.png);
+    background-image: url(images/cafe.png), linear-gradient(to bottom, rgba(64, 48, 48,0.2), rgba(0,0,0,0.4)), url(images/leather.png);
     background-position:right bottom;
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat, no-repeat, repeat;
     background-attachment: fixed;
-    background-color: #211813;
+    background-color: #3c2824;
 }
 
 
@@ -22,6 +22,13 @@ a {
   color: #fcd86d;
 }
 
+h1 {
+   text-shadow: 2px 2px 2px #000000;
+}
+
+h2 {
+   text-shadow: 2px 2px 2px #000000;
+}
 
 h3 {
    color: #fcd86d;
@@ -32,7 +39,7 @@ toc {
   position: fixed;
   padding-left: 20px;
   width: 15%;
-  background-color: #140f0c;
+  background-color: rgba(20,15,12,.5);
 }
 
 div p {
